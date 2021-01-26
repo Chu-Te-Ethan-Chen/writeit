@@ -1,8 +1,8 @@
 {
-  "name": "nuxtlify",
+  "name": "writeit",
   "version": "1.0.0",
-  "description": "Blog template for Nuxt.js/Netlify",
-  "author": "Daniel Kelly",
+  "description": "A blog for web development",
+  "author": "Jordon Chen",
   "license": "MIT",
   "scripts": {
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
