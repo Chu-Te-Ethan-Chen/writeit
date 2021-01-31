@@ -57,3 +57,9 @@ New
    ```
 3. Composition API
 4. TyepScript
+
+Reference:
+
+- [Differences Between Vue 2 And Vue 3](https://medium.com/javascript-in-plain-english/differences-between-vue-2-and-vue-3-ee627e2c83a8)
+- [Migration Guide](https://v3.vuejs.org/guide/migration/introduction.html#overview)
+- [Vue - The Complete Guide (w/ Router, Vuex, Composition API)](https://www.udemy.com/course/vuejs-2-the-complete-guide/)
