@@ -11,6 +11,8 @@ featureImage: /uploads/screen-shot-2021-05-18-at-9.18.20-pm.png
 
 A mimic version of [gogoro.com](http://gogoro.com/) homepage.
 
+[https://github.com/Jordon-Chen/kokolo](https://github.com/Jordon-Chen/kokolo)
+
 ## Project setup
 
 ```
