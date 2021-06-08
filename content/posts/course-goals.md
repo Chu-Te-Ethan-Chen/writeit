@@ -5,7 +5,7 @@ category:
   - React
 author: Jordon Chen
 date: 2021-06-08T03:32:08.654Z
-featureImage: /uploads/screen-shot-2021-06-08-at-11.40.28-am.jpg
+featureImage: /uploads/screen-shot-2021-06-08-at-11.52.37-am.jpg
 ---
 A react-based app to record your course goals.
 
