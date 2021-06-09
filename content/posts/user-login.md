@@ -9,7 +9,7 @@ featureImage: /uploads/screen-shot-2021-06-09-at-1.31.04-pm.jpg
 ---
 A react-based app to let user login.
 
-Learning: [useEffect](https://reactjs.org/docs/hooks-effect.html), [useReducer](https://reactjs.org/docs/hooks-reference.html#usereducer), [Context](https://reactjs.org/docs/context.html)
+Learning: [useEffect](https://reactjs.org/docs/hooks-effect.html), [useReducer](https://reactjs.org/docs/hooks-reference.html#usereducer), [Context](https://reactjs.org/docs/context.html), [useImperativeHandle](https://reactjs.org/docs/hooks-reference.html#useimperativehandle), [forwardRef()](https://reactjs.org/docs/forwarding-refs.html)
 
 Demo: [http://jordon-chen.github.io/user-login](http://jordon-chen.github.io/user-login)
 
