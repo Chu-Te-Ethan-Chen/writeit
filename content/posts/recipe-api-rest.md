@@ -8,7 +8,23 @@ author: Jordon Chen
 date: 2021-06-05T01:53:02.450Z
 featureImage: /uploads/screen-shot-2021-06-05-at-9.58.25-am.jpg
 ---
-[https://github.com/Jordon-Chen/recipe-app-api](https://github.com/Jordon-Chen/recipe-app-api)
+A django-based restful API to store and fetch recipes. Users can create their own recipes, ingredients, tags, and images through this API.
+
+* This app consists of 3 components: core, recipe, and user.
+* In the core components, we set up the model and test for our data, such as users, ingredients, tags, and recipes.
+* In the recipe component, we created an API for manipulating our models.
+* In the user components, we configured the authentication setting.
+* This app is created by using [django-rest-framework](https://www.django-rest-framework.org/).
+* [Docker](https://www.docker.com/) is applied to handle infra set up.
+* Data is stored in [PostgreSQL](https://www.postgresql.org/).
+* We used test-driven-development strategies to develop, and implemented by [django test](https://docs.djangoproject.com/en/3.2/topics/testing/overview/).
+* We configured [Travis-CI](https://www.travis-ci.com/) to automate code checks.
+* The API is presented in the [Swagger](https://swagger.io/resources/open-api/)/OpenAPI 2.0 format.
+* [Json Web Token (JWT)](https://jwt.io/) authentication is applied to ensure users access security.
+* We used [flake8](https://flake8.pycqa.org/en/latest/) to ensure the lint and code format.
+
+Github code: [https://github.com/Jordon-Chen/recipe-app-api](https://github.com/Jordon-Chen/recipe-app-api)
+
 
 ## **Installation**
 
@@ -24,7 +40,7 @@ docker-compose run --rm app sh -c "python manage.py test && flake8"
 
 ## **Docs**
 
-[http://localhost:8000/swagger/](http://localhost:8000/swagger/)
+<http://localhost:8000/swagger/>
 
 ## **Usage**
 
