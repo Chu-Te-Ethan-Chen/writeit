@@ -16,36 +16,30 @@
               <p class="subtitle">
                 What can I do for you?
               </p>
-              <figure class="image is-1by1 ">
+              <figure class="image is-1by1">
                 <opti-image
-                  :src="require('~/assets/uploads/contact-person.jpg').src"
-                  :srcset="
-                    require('~/assets/uploads/contact-person.jpg').srcSet
-                  "
+                  :src="require('~/assets/uploads/Chu-Te-Chen.jpg').src"
+                  :srcset="require('~/assets/uploads/Chu-Te-Chen.jpg').srcSet"
                 />
               </figure>
               <br />
               <div class="content">
                 <p>
                   <strong>
-                    Edit this page in<code>/pages/contact.vue</code>to fit your
-                    needs.
+                    Hi, I'm Chu-Te (Ethan) Chen, a passionate software engineer with expertise in full-stack development and cloud computing.
                   </strong>
                 </p>
                 <p>
-                  This form doesn't actually work but would be easy enough to
-                  slap an action on to have it post wherever you'd like. Or put
-                  the netlify attribute on it and have netlify handle all your
-                  form submissions...
+                  Feel free to reach out and you can find me on <a href="https://www.linkedin.com/in/chu-te-chen/" target="_blank">LinkedIn</a>.
                 </p>
               </div>
             </article>
           </div>
-          <div class="tile is-parent is-8">
+          <!-- <div class="tile is-parent is-8">
             <article class="tile is-child box">
               <contact-form />
             </article>
-          </div>
+          </div> -->
         </div>
       </template>
       <template v-slot:sidebar>
@@ -58,14 +52,15 @@
     </main-section>
   </div>
 </template>
+
 <script>
-import ContactForm from '~/components/ContactForm'
+// import ContactForm from '~/components/ContactForm'
 export default {
   head() {
     return {
       title: `Contact | ${this.$siteConfig.siteName}`
     }
-  },
-  components: { ContactForm }
+  }
+  // components: { ContactForm }
 }
 </script>

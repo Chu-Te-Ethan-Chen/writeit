@@ -22,6 +22,14 @@ module.exports = {
     "no-console": "off",
     "vue/no-v-html": "off",
     "vue/html-self-closing": "off",
-    "nuxt/no-timing-in-fetch-data": "off"
-  }
+    "nuxt/no-timing-in-fetch-data": "off",
+    "prettier/prettier": [
+      'warn',  // alternativly change to 'warn' if you want only warning 
+      {
+        endOfLine: 'auto',
+        // ... put other prettier rules here like "semi":flase,
+      },
+    ],
+  },
+  
 }
