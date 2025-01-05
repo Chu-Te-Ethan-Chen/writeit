@@ -3,13 +3,15 @@ title: user-login
 subtitle: A react-based app to let user login.
 category:
   - React
-author: Jordon Chen
+author: Chu-Te (Ethan) Chen
 date: 2021-06-10T00:00:39.507Z
 featureImage: /uploads/screen-shot-2021-06-09-at-1.31.04-pm.jpg
 ---
 A react-based app to let user login.
 
-Demo: <http://jordon-chen.github.io/user-login>
+Demo: [http://chu-te-ethan-chen.github.io/user-login](http://chu-te-ethan-chen.github.io/user-login)
+
+Github code: [https://github.com/Chu-Te-Ethan-Chen/user-login](https://github.com/Chu-Te-Ethan-Chen/user-login)
 
 * This app consists of 4 components: UI, MainHeader, Login, and Home.
 * Using [useReducer](https://reactjs.org/docs/hooks-reference.html#usereducer) to manage the state of email, password, and their validation.
