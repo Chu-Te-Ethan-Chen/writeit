@@ -3,7 +3,7 @@ title: Vue2 to Vue3
 subtitle: 5 changes & 4 new features
 category:
   - Vue
-author: Jordon Chen
+author: Chu-Te (Ethan) Chen
 date: 2021-01-31T07:11:01.304Z
 featureImage: /uploads/photo-1478796415026-3c85ee65975e.jpeg
 ---
